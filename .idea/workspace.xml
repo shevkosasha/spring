@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dcb3185-3541-4c35-a277-31925940ba0b" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestBean.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -50,6 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
