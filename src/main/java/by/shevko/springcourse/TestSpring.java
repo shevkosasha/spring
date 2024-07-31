@@ -14,8 +14,11 @@ public class TestSpring {
         Music cLassic = context.getBean("musicBeanCLassic", Music.class);
         Music rock = context.getBean("musicBeanRock", Music.class);
 
-        MusicPlayer player = context.getBean("musicPlayer", MusicPlayer.class);
-        player.playMusic();
+        MusicPlayer player1 = context.getBean("musicPlayer1", MusicPlayer.class);
+        player1.playMusic();
+        MusicPlayer player2 = context.getBean("musicPlayer2", MusicPlayer.class);
+        player2.playMusic();
+        System.out.println(String.format("name: %s, volume %d", player2.getName().toUpperCase(), player2.getVolume()));
 
         context.close();
 
