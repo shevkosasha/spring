@@ -14,4 +14,9 @@
     <bean id="musicBeanRock"
           class="by.shevko.springcourse.RockMusic">
     </bean>
+
+    <bean id="musicPlayer"
+          class="by.shevko.springcourse.MusicPlayer">
+        <constructor-arg ref="musicBeanCLassic"/>
+    </bean>
 </beans>
