@@ -11,9 +11,5 @@
           class="by.shevko.springcourse.TestBean">
         <constructor-arg value="Alex"/>
     </bean>
-    <bean id="musicBean"
-          class="not_imp.RockMusic">
-<!--        <constructor-arg value="Alex"/>-->
-    </bean>
 
 </beans>
