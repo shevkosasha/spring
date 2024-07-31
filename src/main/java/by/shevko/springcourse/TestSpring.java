@@ -1,8 +1,8 @@
 package by.shevko.springcourse;
 
-import not_imp.Music;
-import not_imp.MusicPlayer;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.List;
 
 public class TestSpring {
 
@@ -10,7 +10,16 @@ public class TestSpring {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "applicationContext.xml"
         );
-        System.out.println(context.getBean("testBean", TestBean.class).getName());
+
+        Music cLassic = context.getBean("musicBeanCLassic", Music.class);
+        Music rock = context.getBean("musicBeanRock", Music.class);
+
+        MusicPlayer player1 = new MusicPlayer(cLassic);
+        player1.playMusic();
+        MusicPlayer player2 = new MusicPlayer(List.of(cLassic, rock));
+        player2.playMusicList();
+
         context.close();
+
     }
 }
