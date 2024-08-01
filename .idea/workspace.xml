@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dcb3185-3541-4c35-a277-31925940ba0b" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/colorthemes/ColorTheme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/colorthemes/RedTheme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/userdata/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/enums/Genres.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/MusicPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayerOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -58,9 +55,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.by.shevko.springcourse.TestSpring">
-    <configuration name="MusicPlayer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.shevko.springcourse.player.MusicPlayer1" />
+  <component name="RunManager" selected="Application.TestSpring">
+    <configuration name="MusicPlayerOld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.shevko.springcourse.player.MusicPlayerOld" />
       <module name="Spring-Demo" />
       <extension name="coverage">
         <pattern>
@@ -87,10 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.by.shevko.springcourse.TestSpring" />
-        <item itemvalue="Application.by.shevko.springcourse.MusicPlayer1" />
-        <item itemvalue="Application.by.shevko.springcourse.TestSpring" />
-        <item itemvalue="Application.by.shevko.springcourse.MusicPlayer" />
+        <item itemvalue="Application.TestSpring" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722436797232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="autowired">
+      <created>1722511742797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722511742797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="autowired" />
+    <option name="LAST_COMMIT_MESSAGE" value="autowired" />
   </component>
 </project>
