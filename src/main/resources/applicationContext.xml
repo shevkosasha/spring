@@ -15,13 +15,17 @@
     <bean id="musicBeanRock"
           class="by.shevko.springcourse.RockMusic">
     </bean>
+    <bean id="musicBean"
+          class="by.shevko.springcourse.ClassicalMusic"
+          init-method="init" destroy-method="destroy" factory-method="classicalMusic">
+    </bean>
 
 <!--    <bean id="musicPlayer"-->
 <!--          class="by.shevko.springcourse.MusicPlayer">-->
 <!--        <constructor-arg ref="musicBeanCLassic"/>-->
 <!--    </bean>-->
     <bean id="musicPlayer"
-          class="by.shevko.springcourse.MusicPlayer"  scope="prototype">
+          class="by.shevko.springcourse.MusicPlayer"  scope="prototype" init-method="init">
         <property name="music" ref="musicBeanRock"/>
         <property name="name" value="${musicPlayer2.name}"/>
         <property name="volume" value="${musicPlayer2.volume}"/>
