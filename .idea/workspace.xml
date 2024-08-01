@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dcb3185-3541-4c35-a277-31925940ba0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/JazzMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/MusicGenresList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/colorthemes/RedTheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/colorthemes/RedTheme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/configs/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/configs/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer.java" afterDir="false" />
-    </list>
+    <list default="true" id="8dcb3185-3541-4c35-a277-31925940ba0b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722548457875</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="java cfg using bean annotation">
+      <created>1722549919031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722549919031</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +160,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="autowired" />
     <MESSAGE value="@value, @postcontruct, @predestroy annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="@value, @postcontruct, @predestroy annotations" />
+    <MESSAGE value="java cfg using bean annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="java cfg using bean annotation" />
   </component>
 </project>
