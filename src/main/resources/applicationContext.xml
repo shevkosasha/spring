@@ -16,12 +16,12 @@
           class="by.shevko.springcourse.RockMusic">
     </bean>
 
-    <bean id="musicPlayer1"
-          class="by.shevko.springcourse.MusicPlayer">
-        <constructor-arg ref="musicBeanCLassic"/>
-    </bean>
-    <bean id="musicPlayer2"
-          class="by.shevko.springcourse.MusicPlayer">
+<!--    <bean id="musicPlayer"-->
+<!--          class="by.shevko.springcourse.MusicPlayer">-->
+<!--        <constructor-arg ref="musicBeanCLassic"/>-->
+<!--    </bean>-->
+    <bean id="musicPlayer"
+          class="by.shevko.springcourse.MusicPlayer"  scope="prototype">
         <property name="music" ref="musicBeanRock"/>
         <property name="name" value="${musicPlayer2.name}"/>
         <property name="volume" value="${musicPlayer2.volume}"/>
