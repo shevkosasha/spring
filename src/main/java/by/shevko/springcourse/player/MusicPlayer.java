@@ -55,7 +55,6 @@ public class MusicPlayer {
             case CLASSICAL: return music1.getSong();
             case ROCK: return music2.getSong();
         }
-//        return " playing: " + music1.getSong() + ", " + music2.getSong();
         return null;
     }
 }
