@@ -52,4 +52,8 @@ public class MusicPlayer {
         System.out.println(">>> play list >>>");
         musicList.stream().forEach(i -> System.out.println(i.getSong()));
     }
+
+    public void init(){
+        System.out.println(" init player ");
+    }
 }
