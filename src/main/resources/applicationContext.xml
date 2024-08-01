@@ -10,9 +10,9 @@
 
     <context:component-scan base-package="by.shevko.springcourse"/>
 <!--    <bean id="musicBeanCLassic"-->
-<!--          class="by.shevko.springcourse.ClassicalMusic">-->
+<!--          class="by.shevko.springcourse.genres.ClassicalMusic">-->
 <!--    </bean>-->
 <!--    <bean id="musicBeanRock"-->
-<!--          class="by.shevko.springcourse.RockMusic">-->
+<!--          class="by.shevko.springcourse.genres.RockMusic">-->
 <!--    </bean>-->
 </beans>

@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dcb3185-3541-4c35-a277-31925940ba0b" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/colorthemes/ColorTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/colorthemes/RedTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/userdata/UserData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/MusicPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -51,12 +59,12 @@
   }
 }</component>
   <component name="RunManager" selected="Application.by.shevko.springcourse.TestSpring">
-    <configuration name="by.shevko.springcourse.MusicPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.shevko.springcourse.MusicPlayer" />
+    <configuration name="MusicPlayer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.shevko.springcourse.player.MusicPlayer1" />
       <module name="Spring-Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.shevko.springcourse.*" />
+          <option name="PATTERN" value="by.shevko.springcourse.genres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="by.shevko.springcourse.TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.shevko.springcourse.TestSpring" />
       <module name="Spring-Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.shevko.springcourse.*" />
+          <option name="PATTERN" value="by.shevko.springcourse.genres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.by.shevko.springcourse.TestSpring" />
+        <item itemvalue="Application.by.shevko.springcourse.MusicPlayer1" />
         <item itemvalue="Application.by.shevko.springcourse.TestSpring" />
         <item itemvalue="Application.by.shevko.springcourse.MusicPlayer" />
       </list>
