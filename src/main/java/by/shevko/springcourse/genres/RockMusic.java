@@ -1,4 +1,4 @@
-package by.shevko.springcourse;
+package by.shevko.springcourse.genres;
 
 import org.springframework.stereotype.Component;
 
