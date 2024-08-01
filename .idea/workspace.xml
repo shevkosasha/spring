@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dcb3185-3541-4c35-a277-31925940ba0b" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/player.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -41,16 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "bec33db128e2daad2c092e940905fe7d"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.by.shevko.springcourse.TestSpring">
     <configuration name="by.shevko.springcourse.MusicPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.shevko.springcourse.MusicPlayer" />
@@ -84,6 +83,7 @@
         <item itemvalue="Application.by.shevko.springcourse.MusicPlayer" />
         <item itemvalue="Application.by.shevko.springcourse.TestSpring" />
         <item itemvalue="Application.by.shevko.springcourse.MusicPlayer" />
+        <item itemvalue="Application.by.shevko.springcourse.TestSpring" />
       </list>
     </recent_temporary>
   </component>
@@ -96,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722430772545</updated>
       <workItem from="1722430776385" duration="5774000" />
+      <workItem from="1722493181401" duration="1001000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1722436700999</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722438391858</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dependency injection hw">
+      <created>1722462385268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722462385268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +137,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dependency_injection_hw" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -138,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="dependency injection part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency injection part1" />
+    <MESSAGE value="dependency injection hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependency injection hw" />
   </component>
 </project>
