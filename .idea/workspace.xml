@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dcb3185-3541-4c35-a277-31925940ba0b" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/player.properties" afterDir="false" />
+    <list default="true" id="8dcb3185-3541-4c35-a277-31925940ba0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/configs/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/JazzMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/MusicGenresList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/genres/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/shevko/springcourse/player/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,16 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "bec33db128e2daad2c092e940905fe7d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bec33db128e2daad2c092e940905fe7d&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.TestSpring">
     <configuration name="MusicPlayerOld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.shevko.springcourse.player.MusicPlayerOld" />
@@ -83,6 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSpring" />
+        <item itemvalue="Application.MusicPlayerOld" />
         <item itemvalue="Application.TestSpring" />
       </list>
     </recent_temporary>
@@ -151,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="autowired" />
-    <option name="LAST_COMMIT_MESSAGE" value="autowired" />
+    <MESSAGE value="@value, @postcontruct, @predestroy annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="@value, @postcontruct, @predestroy annotations" />
   </component>
 </project>
