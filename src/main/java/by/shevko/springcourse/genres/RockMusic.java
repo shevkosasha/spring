@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component("rock")
+//@Component("rock")
 public class RockMusic implements Music {
 
     private List<String> songs = List.of("Wind of Change", "The Unforgiven", "Highway To Hell");

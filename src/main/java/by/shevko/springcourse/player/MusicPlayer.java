@@ -9,9 +9,11 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
-@Component
+//@Component
 public class MusicPlayer {
 
     @Value("${musicPlayer.name}")
@@ -20,19 +22,24 @@ public class MusicPlayer {
     @Value("${musicPlayer.volume}")
     private int volume;
 
-    @Autowired
-    @Qualifier("classic")
+//    @Autowired
+//    @Qualifier("classic")
     private Music music1;
-    @Autowired
-    @Qualifier("rock")
+//    @Autowired
+//    @Qualifier("rock")
     private Music music2;
 
-//    @Autowired
-//    public MusicPlayer(@Qualifier("classic") Music music1, @Qualifier("rock") Music music2) {
-//        this.music1 = music1;
-//        this.music2 = music2;
-//    }
+    private List<Music> musicList = new ArrayList<>();
 
+//    @Autowired
+    public MusicPlayer(@Qualifier("classic") Music music1, @Qualifier("rock") Music music2) {
+        this.music1 = music1;
+        this.music2 = music2;
+    }
+
+    public MusicPlayer(List<Music> musicList) {
+        this.musicList = musicList;
+    }
 
     public String getName() {
         return name;
@@ -50,6 +57,10 @@ public class MusicPlayer {
         this.volume = volume;
     }
 
+    public String playMusic(){
+        return musicList.get(new Random().nextInt(musicList.size() -1)).getSong();
+    }
+
     public String playMusic(Genres genre){
         switch (genre){
             case CLASSICAL: return music1.getSong();
@@ -57,4 +68,6 @@ public class MusicPlayer {
         }
         return null;
     }
+
+
 }

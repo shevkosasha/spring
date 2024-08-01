@@ -21,6 +21,9 @@ public class Computer {
     public String toString() {
         return "Computer{" +
                 "id=" + id +
-                "},  \n playing:\n " + musicPlayer.playMusic(Genres.CLASSICAL) + ", " + musicPlayer.playMusic(Genres.ROCK);
+                "},  " +
+//                "\n playing random classical:\n " + musicPlayer.playMusic(Genres.CLASSICAL) +
+//                "\n playing random rock:\n " + musicPlayer.playMusic(Genres.ROCK) +
+                "\n playing random song:\n " + musicPlayer.playMusic();
     }
 }
