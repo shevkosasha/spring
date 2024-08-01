@@ -1,6 +1,7 @@
 package by.shevko.springcourse;
 
-import by.shevko.springcourse.player.MusicPlayer2;
+import by.shevko.springcourse.enums.Genres;
+import by.shevko.springcourse.player.MusicPlayer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -8,10 +9,10 @@ import org.springframework.stereotype.Component;
 public class Computer {
 
     private int id;
-    private MusicPlayer2 musicPlayer;
+    private MusicPlayer musicPlayer;
 
     @Autowired
-    public Computer(MusicPlayer2 musicPlayer) {
+    public Computer(MusicPlayer musicPlayer) {
         this.id = 1;
         this.musicPlayer = musicPlayer;
     }
@@ -20,7 +21,6 @@ public class Computer {
     public String toString() {
         return "Computer{" +
                 "id=" + id +
-                " " + musicPlayer.playMusic() +
-                '}';
+                "},  \n playing:\n " + musicPlayer.playMusic(Genres.CLASSICAL) + ", " + musicPlayer.playMusic(Genres.ROCK);
     }
 }

@@ -4,10 +4,9 @@ import by.shevko.springcourse.colorthemes.ColorTheme;
 import by.shevko.springcourse.genres.Music;
 import by.shevko.springcourse.userdata.UserData;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 //@Component
-public class MusicPlayer1 {
+public class MusicPlayerOld {
 
     private Music music;
     private ColorTheme theme;
@@ -16,7 +15,7 @@ public class MusicPlayer1 {
 
     //IoC
 //    @Autowired
-    public MusicPlayer1(Music music) {
+    public MusicPlayerOld(Music music) {
         this.music = music;
     }
 
